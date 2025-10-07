@@ -1,17 +1,23 @@
-const withPlugins = require("next-compose-plugins");
-const withCss = require("@zeit/next-css");
-const withReactSvg = require("next-react-svg");
-const withImages = require("next-images");
-
 const path = require("path");
 
-module.exports = withPlugins([
-  withCss({}),
-  withImages({}),
-  withReactSvg({
-    include: path.resolve(__dirname, "./public/images"),
-    webpack(config, options) {
-      return config;
-    },
-  }),
-]);
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
+  
+  // Next.js sudah support import images secara native
+  images: {
+    domains: [], // tambahkan domain external image jika perlu
+  },
+
+  webpack(config, options) {
+    // Konfigurasi untuk SVG
+    config.module.rules.push({
+      test: /\.svg$/,
+      use: ['@svgr/webpack'],
+    });
+
+    return config;
+  },
+};
+
+module.exports = nextConfig;

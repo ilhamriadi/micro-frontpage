@@ -1,6 +1,6 @@
 {
   "name": "bwamicro",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -8,21 +8,21 @@
     "start": "next start"
   },
   "dependencies": {
-    "@zeit/next-css": "^1.0.1",
-    "axios": "^0.19.2",
-    "next": "9.4.4",
-    "next-compose-plugins": "^2.2.0",
-    "next-images": "^1.4.0",
-    "next-react-svg": "^1.1.1",
+    "axios": "^1.7.2",
+    "next": "^13.5.0",
+    "next-compose-plugins": "^2.2.1",
+    "next-images": "^1.8.4",
     "nprogress": "^0.2.0",
-    "react": "16.13.1",
-    "react-dom": "16.13.1",
-    "react-toastify": "^6.0.8",
-    "react-transition-group": "^4.4.1",
-    "react-youtube": "^7.11.2"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-toastify": "^10.0.5",
+    "react-transition-group": "^4.4.5",
+    "react-youtube": "^10.1.0"
   },
   "devDependencies": {
-    "autoprefixer": "^9.8.4",
-    "tailwindcss": "^1.4.6"
+    "@svgr/webpack": "^8.1.0",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.4"
   }
 }
