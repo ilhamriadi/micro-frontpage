@@ -2,7 +2,7 @@ import Head from "next/head";
 
 import axios from "src/configs/axios";
 
-import Circle from "public/images/circle-accent-1.svg";
+import Circle from "public/images/circle-accent-1.png";
 
 import Header from "src/parts/Header";
 import Hero from "src/parts/Hero";

@@ -5,35 +5,35 @@ export default function Clients() {
     <div className="flex flex-wrap justify-center items-center">
       <div className="w-full sm:w-1/6 mb-8 md:mb-0">
         <img
-          src="/images/logo-amazon.svg"
+          src="/images/logo-amazon.png"
           alt="logo amazon"
           className="mx-auto"
         />
       </div>
       <div className="w-full sm:w-1/6 mb-8 md:mb-0">
         <img
-          src="/images/logo-microsoft.svg"
+          src="/images/logo-microsoft.png"
           alt="logo microsoft"
           className="mx-auto"
         />
       </div>
       <div className="w-full sm:w-1/6 mb-8 md:mb-0">
         <img
-          src="/images/logo-tesla.svg"
+          src="/images/logo-tesla.png"
           alt="logo tesla"
           className="mx-auto"
         />
       </div>
       <div className="w-full sm:w-1/6 mb-8 md:mb-0">
         <img
-          src="/images/logo-google.svg"
+          src="/images/logo-google.png"
           alt="logo google"
           className="mx-auto"
         />
       </div>
       <div className="w-full sm:w-1/6 mb-8 md:mb-0">
         <img
-          src="/images/logo-facebook.svg"
+          src="/images/logo-facebook.png"
           alt="logo facebook"
           className="mx-auto"
         />

@@ -9,9 +9,9 @@ import { CSSTransition } from "react-transition-group";
 import Header from "src/parts/Header";
 
 //public image files
-import Nametag from "public/images/icon-nametag.svg";
-import Playback from "public/images/icon-playback.svg";
-import Certificate from "public/images/icon-certificate.svg";
+import Nametag from "public/images/icon-nametag.png";
+import Playback from "public/images/icon-playback.png";
+import Certificate from "public/images/icon-certificate.png";
 
 import courses from "src/constants/api/courses";
 

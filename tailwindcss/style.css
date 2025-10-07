@@ -259,7 +259,7 @@ svg#svg-star {
 .stars .star {
   @apply .absolute;
   clip-path: url(#star);
-  /* mask: url(../public/images/icon-star.svg) no-repeat center left; */
+  /* mask: url(../public/images/icon-star.png) no-repeat center left; */
 }
 
 .stars .star:not(.placeholder) {
